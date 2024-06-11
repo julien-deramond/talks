@@ -8,6 +8,8 @@ info: |
   Open-source Orange Design System, accessibility, and the two-way relationship with Bootstrap for its fork Boosted.
 
   [Julien Déramond](https://github.com/julien-deramond) at [OW2con'24](https://www.ow2con.org/view/2024/)
+
+  - [Source code](https://github.com/julien-deramond/talks/tree/main/ow2con24)
 highlighter: shiki
 drawings:
   persist: false
@@ -29,7 +31,7 @@ by Julien Déramond
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/julien-deramond/slides/ow2con24" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/julien-deramond/talks/tree/main/ow2con24" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
