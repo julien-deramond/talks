@@ -629,3 +629,5 @@ class: text-center
 # Thank you!
 
 Presentation under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/)
+
+<img src="/qrcode.png" alt="QR code to the slides" class="">

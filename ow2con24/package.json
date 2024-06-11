@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --out my-build-folder --dark --with-clicks",
+    "build": "slidev build --out dist --dark --with-clicks",
     "dev": "slidev --open",
     "export": "slidev export"
   },
