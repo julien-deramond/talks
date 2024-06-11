@@ -1,0 +1,12 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+}
+
+blockquote {
+  border-color: rgba(255, 255, 255, .5) !important;
+  height: 60px !important;
+  padding: 20px !important;
+  font-size: 2rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
