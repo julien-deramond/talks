@@ -435,9 +435,9 @@ _Data manually gathered the 7th of June 2024, it may contain errors_
 
 | Contribution type | Linked to Orange | Bootstrap | Percentage linked to Orange |
 |---|---|---|---|
-| Issues (created) | 104 | 774 | 13% |
-| Pull requests (created) | 840 | 1,753 | 47% |
-| Commits | 933 | 3,254 | 29% |
+| Issues (created) | 100 | 22,396 | 0.4% |
+| Pull requests (created) | 840 | 15,199 | 5.5% |
+| Commits | 920 | 22,813 | 4% |
 
 <br>
 
@@ -462,29 +462,31 @@ _Data manually gathered the 7th of June 2024, it may contain errors_
 </v-switch>
 
 <!--
-Sources
+Sources:
+- Commits: https://github.com/twbs/bootstrap/graphs/contributors
+- PRs: https://github.com/twbs/bootstrap/pulls
+- Issues: https://github.com/twbs/bootstrap/issues
 
-| Name | GitHub | Issues created | PRs created | Commits |
-|---|---|---|---|---|
-| Vincent Aniort | [@Aniort](https://github.com/Aniort) | 5 | 0 | 0 |
-| Isabelle Chanclou | [@isabellechanclou](https://github.com/isabellechanclou) | 0 | 2 | 1 |
-| Julien Déramond | [@julien-deramond](https://github.com/julien-deramond) | 23 | 305 | 301 |
-| Yves Gatesoupe | [@ygatesoupe](https://github.com/ygatesoupe) | 3 | 0 | 0 |
-| Hannah Issermann | [@hannahiss](https://github.com/hannahiss) | 1 | 8 | 8 |
-| Loïc Laussel | [@Lausselloic](https://github.com/Lausselloic) | 23 | 27 | 12 |
-| Mewen Le Hô | [@MewenLeHo](https://github.com/MewenLeHo) | 1 | 8 | 4 |
-| Louis-Maxime Piton | [@louismaximepiton](https://github.com/louismaximepiton) | 8 | 106 | 80 |
-| Gaël Poupard | [@ffoodd](https://github.com/ffoodd) | 11 | 137 | 141 |
-| Johann Servoire | [@Johann-S](https://github.com/Johann-S) | 29 | 247 | 386 |
+People linked to Orange:
+- Vincent Aniort | [@Aniort](https://github.com/Aniort)
+- Isabelle Chanclou | [@isabellechanclou](https://github.com/isabellechanclou)
+- Julien Déramond | [@julien-deramond](https://github.com/julien-deramond)
+- Yves Gatesoupe | [@ygatesoupe](https://github.com/ygatesoupe)
+- Hannah Issermann | [@hannahiss](https://github.com/hannahiss)
+- Loïc Laussel | [@Lausselloic](https://github.com/Lausselloic)
+- Mewen Le Hô | [@MewenLeHo](https://github.com/MewenLeHo)
+- Louis-Maxime Piton | [@louismaximepiton](https://github.com/louismaximepiton)
+- Gaël Poupard | [@ffoodd](https://github.com/ffoodd)
+- Johann Servoire | [@Johann-S](https://github.com/Johann-S)
 -->
 
 <!--
 I've gathered some data from GitHub, hoping it's accurate.
 
 What we can see is that in the GitHub Bootstrap repository:
-- 13% of the issues created are linked to Orange
-- 47% of the pull requests created are linked to Orange
-- 29% of the commits are linked to Orange
+- 0.4% of the issues created are linked to Orange (Bootstrap total includes duplicates, spams, etc.)
+- 5.5% of the pull requests created are linked to Orange (Bootstrap total includes Dependabot)
+- 4% of the commits are linked to Orange
 
 #### (Click)
 
