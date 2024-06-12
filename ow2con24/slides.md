@@ -630,4 +630,4 @@ class: text-center
 
 Presentation under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/)
 
-<img src="/qrcode.png" alt="QR code to the slides" class="">
+<img src="/qrcode.png" alt="QR code to the slides" class="w-40 inline-block">
