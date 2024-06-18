@@ -10,14 +10,13 @@ Orange Design System (ODS) is Orange’s open-source toolkit for product design 
 
 Join us as we explore this suite and its integration within the open-source community, uncovering how developers actively contribute to upstream projects. Additionally, learn about the notable involvement of some developers who are members of Bootstrap's core team; whose our web framework is a fork of.
 
-## Launch the slides
+- [Slides](https://talks-jade.vercel.app/ow2con24/dist)
+- [Slides (PDF)](https://talks-jade.vercel.app/ow2con24/dist/slidev-exported.pdf)
+
+## Launch the slides locally
 
 To start the slide show:
 
 - `npm install`
 - `npm run dev`
 - visit http://localhost:3030
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
