@@ -1,6 +1,10 @@
 # OW2con'24
 
-## Orange Open-Source Design System and Its Bootstrap Fork 
+- Link: https://www.ow2con.org/view/2024/
+- Date: June 12, 2024
+- Place: Orange Gardens at Châtillon, France
+
+## Orange Open-Source Design System and Its Bootstrap Fork
 
 Orange Design System (ODS) is Orange’s open-source toolkit for product design and accessible digital experiences. It offers a comprehensive suite including a web framework, web libraries, mobile SDKs, and various tools, all of which are open-source and either utilize or are based on existing open-source software.
 
