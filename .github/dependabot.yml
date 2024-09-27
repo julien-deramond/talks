@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pnpm"
+    directory: "/ow2con24"
+    schedule:
+      interval: "weekly"
