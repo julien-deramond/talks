@@ -4,3 +4,7 @@ updates:
     directory: "/ow2con24"
     schedule:
       interval: "weekly"
+  - package-ecosystem: "pnpm"
+    directory: "/storybook-paris-3"
+    schedule:
+      interval: "weekly"

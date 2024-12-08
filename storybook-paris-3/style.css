@@ -1,0 +1,68 @@
+.slidev-slide-content {
+  background-color: #171c23 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+}
+
+.slidev-layout {
+  background-color: #171c23 !important;
+  background-image: none !important;
+}
+
+.slidev-layout.cover h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  max-width: 75%;
+}
+
+.slidev-layout.intro h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.col-left {
+  padding-right: 20px;
+}
+
+.col-right {
+  padding-left: 20px;
+}
+
+.showcases-profile-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .5rem;
+  border: 1px solid #353841;
+  border-radius: .5rem;
+  padding: 1rem;
+  box-shadow: 0px 1px 1px hsla(0, 0%, 0%, .12), 0px 2px 1px hsla(0, 0%, 0%, .24);
+  position: relative
+}
+
+.showcases-profile-card a {
+  text-decoration: none;
+  line-height: 1.2;
+  border: none;
+}
+
+.showcases-profile-content {
+  flex-direction: column;
+  gap: .5rem
+}
+
+.showcases-profile-picture {
+  border-radius: .4375rem;
+}
+
+.showcases-profile-description {
+  color: #888b96;
+  line-height: 1.2;
+  font-size: .8rem;
+}
+
+.slidev-vclick-prior {
+  opacity: 0.2;
+}
