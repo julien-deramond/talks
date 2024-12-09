@@ -1,7 +1,6 @@
 Sources of images used in this presentation:
 
-- boosted-guidelines.png from https://github.com/Orange-OpenSource/Orange-Boosted-Bootstrap/blob/ebc282d1758ca708d0fadb67c32c8b280453cd42/site/static/docs/5.3/assets/img/boosted-guidelines.png
-- bootstrap-logo.svg from https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg
-- OpenSource_Logo.png from https://github.com/Open-reSource/openresource.dev
-- Orange_logo.png from https://fr.wikipedia.org/wiki/Orange_%28entreprise%29#/media/Fichier:Orange_logo.svg
-- storybook.svg from https://storybook.js.org/
+- images/bootstrap-logo.svg from https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg
+- images/OpenSource_Logo.png from https://github.com/Open-reSource/openresource.dev
+- images/Orange_logo.png from https://fr.wikipedia.org/wiki/Orange_%28entreprise%29#/media/Fichier:Orange_logo.svg
+- images/storybook.svg from https://storybook.js.org/

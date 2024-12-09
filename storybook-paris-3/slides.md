@@ -23,7 +23,7 @@ download: true
 by Julien Déramond
 
 <div class="abs-bl mx-14 my-12 flex">
-  <img src="/storybook.svg" class="h-11">
+  <img src="/images/storybook.svg" class="h-11">
   <div class="ml-3 flex flex-col text-left">
     <div>Storybook Paris #3 - What's your status</div>
     <div class="text-sm opacity-50">December 12th, 2024</div>
@@ -45,11 +45,11 @@ layout: intro
 
 <p></p>
 
-<img src="/Orange_logo.png" class="w-10 inline-block me-3" /> [Orange Design System](https://system.design.orange.com/) tech lead
+<img src="/images/Orange_logo.png" class="w-10 inline-block me-3" /> [Orange Design System](https://system.design.orange.com/) tech lead
 
-<img src="/bootstrap-logo.svg" alt="Bootstrap logo" class="w-10 inline-block me-3" /> [Bootstrap](https://getbootstrap.com/) core team member
+<img src="/images/bootstrap-logo.svg" alt="Bootstrap logo" class="w-10 inline-block me-3" /> [Bootstrap](https://getbootstrap.com/) core team member
 
-<img src="/OpenReSource_Logo.png" class="w-10 inline-block me-3" /> [Open \{re\}Source](https://openresource.dev) and [Advent of Open Source](https://adventofopensource.com) creator
+<img src="/images/OpenReSource_Logo.png" class="w-10 inline-block me-3" /> [Open \{re\}Source](https://openresource.dev) and [Advent of Open Source](https://adventofopensource.com) creator
 
 <a href="https://github.com/julien-deramond" alt="GitHub" title="Open in GitHub" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
   <carbon-logo-github />
@@ -159,7 +159,7 @@ $btn-bg-primary: $primary;
 <button class="btn-primary">Primary button</button>
 ```
 
-<img src="/btn-blue.png" class="w-50 mt-5 rounded-[5px]" />
+<img src="/images/btn-blue.png" class="w-50 mt-5 rounded-[5px]" />
 
 </div>
 
@@ -202,7 +202,7 @@ Basic user with the CDN version of Bootstrap.
 <button class="btn-primary">Primary button</button>
 ```
 
-<img src="/btn-blue.png" class="w-50 mt-5 rounded-[5px]" />
+<img src="/images/btn-blue.png" class="w-50 mt-5 rounded-[5px]" />
 
 </template>
 <template #2>
@@ -220,7 +220,7 @@ $primary: red;
 <button class="btn-primary">Primary button</button>
 ```
 
-<img src="/btn-red.png" class="w-50 mt-5 rounded-[5px]" />
+<img src="/images/btn-red.png" class="w-50 mt-5 rounded-[5px]" />
 
 </template>
 <template #3>
@@ -244,7 +244,7 @@ $primary: var(--ds-primary);
 ```
 
 <div class="grid grid-cols-2 justify-between items-center mt-5">
-  <img src="/btn-default.png" class="w-50 rounded-[5px]" />
+  <img src="/images/btn-default.png" class="w-50 rounded-[5px]" />
   <span class="text-rose text-2xl"><arcticons:foss-warn class="me-2"/>Breaking</span>
 </div>
 
@@ -275,7 +275,7 @@ layout: center
 - Is it a major, minor, or patch version?
 - What if all your modifications are like that?
 - Do we stay with a minor version 0 forever?
-  <img src="/hugo-v0.139.3.png" class="w-50" />
+  <img src="/images/hugo-v0.139.3.png" class="w-50" />
 
 </v-clicks>
 
@@ -406,13 +406,13 @@ And I gave it a try.
 layout: image
 ---
 
-<img src="/bootstrap-deprecated-classes-extension-1.png" />
+<img src="/images/bootstrap-deprecated-classes-extension-1.png" />
 
 ---
 layout: image
 ---
 
-<img src="/bootstrap-deprecated-classes-extension-2.png" />
+<img src="/images/bootstrap-deprecated-classes-extension-2.png" />
 
 ---
 layout: two-cols
@@ -658,7 +658,7 @@ And without any source code access.
 layout: image
 ---
 
-<img src="/orange.fr-screenshot.png" />
+<img src="/images/orange.fr-screenshot.png" />
 
 ---
 layout: center
@@ -713,4 +713,4 @@ class: text-center
 
 Presentation under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/)
 
-<img src="/qrcode.png" alt="QR code to the slides" class="w-40 inline-block">
+<img src="/images/qrcode.png" alt="QR code to the slides" class="w-40 inline-block">
