@@ -67,7 +67,9 @@ layout: quote
 
 <div class="max-w-[600px]">
 
-# Upgrading frameworks and libraries is never as simple as it looks.
+# Who had to deal with complex migrations of major versions?
+
+Upgrading frameworks and libraries is never as simple as it looks.
 
 </div>
 
@@ -167,7 +169,7 @@ $btn-bg-primary: $primary;
 layout: two-cols-header
 ---
 
-# <span class="text-yellow" text-yellow2 italic v-mark.yellow.underline.delay500="0">New release</span>
+# <span class="text-yellow font-hand text-5xl">New release</span>
 
 ::left::
 
@@ -245,7 +247,7 @@ $primary: var(--ds-primary);
 
 <div class="grid grid-cols-2 justify-between items-center mt-5">
   <img src="/images/btn-default.png" class="w-50 rounded-[5px]" />
-  <span class="text-rose text-2xl"><arcticons:foss-warn class="me-2"/>Breaking</span>
+  <span class="text-rose text-4xl font-bold font-hand">Breaking!</span>
 </div>
 
 </template>
@@ -260,8 +262,8 @@ layout: center
 <arcticons-symbol-question-mark />
 
 <div class="grid grid-cols-2 justify-between items-center my-5">
-<strong class="text-lime">> 95% of users</strong> non-breaking<br>
-<strong class="text-rose">< 5% of users</strong> breaking
+<strong class="text-lime font-hand text-2xl">> 95% of users</strong> non-breaking<br>
+<strong class="text-rose font-hand text-2xl">< 5% of users</strong> breaking
 </div>
 
 <v-click>
@@ -353,7 +355,7 @@ layout: center
 
 <div class="max-w-96">
 
-<span text-pink italic v-mark.pink.underline.delay500="0">However</span>, automated migrations tools:
+<span class="text-pink font-hand text-3xl">However,</span> automated migrations tools:
 - are not always perfect,
 - can be costly to create, and maintain,
 - and are hard to craft.
@@ -373,7 +375,7 @@ layout: center
 ## Experimentation
 
 <p v-after="1">
-  Sometimes, as maintainers, we need to explore, experiment, and <span text-1.4em font-hand text-blue v-mark.highlight.delay400="{at:1,color:'#60a5fa20'}">have fun with new ideas.</span>
+  Sometimes, as maintainers, we need to explore, experiment, and <span class="text-2xl font-hand text-blue">have fun with new ideas.</span>
 </p>
 
 <v-click>
@@ -642,7 +644,7 @@ The tool is rather handy while you're migrating from one version to another.
 
 <v-clicks>
 
-<span text-yellow italic v-mark.yellow.underline.delay500="0">A usage I didn't expect</span>
+<span class="text-2xl text-yellow italic font-hand">A usage I didn't expect</span>
 
 This extension is a **design system audit tool**!
 
