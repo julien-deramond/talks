@@ -396,7 +396,7 @@ I stumbled upon a Bootstrap GitHub discussion mentioning an idea about a browser
       </a>
       <span class="showcases-profile-description">Browser extension highlighting Bootstrap deprecated classes in websites</span>
     </span>
-    <img src="/images/17381666.jpg" class="showcases-profile-picture" alt="" width="50" height="50" loading="lazy" decoding="async">
+    <img src="/images/julien.jpg" class="showcases-profile-picture" alt="" width="50" height="50">
   </div>
 </div>
 
