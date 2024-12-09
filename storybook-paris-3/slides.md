@@ -387,7 +387,7 @@ I stumbled upon a Bootstrap GitHub discussion mentioning an idea about a browser
 <div v-click class="flex mt-5 max-w-120">
   <div class="showcases-profile-card">
     <span class="flex showcases-profile-content">
-      <a href="https://github.com/slidevjs/slidev">
+      <a href="https://github.com/julien-deramond/bootstrap-deprecated-classes-extension">
         <span class="showcases-profile-name">
           <span style="font-weight: 400">julien-deramond/</span>
           <br>
