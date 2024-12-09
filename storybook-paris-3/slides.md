@@ -3,8 +3,6 @@ theme: default
 background: none
 title: Hunt down deprecated classes from your browser
 info: |
-  ## Hunt down deprecated classes from your browser
-
   Framework upgrades happen, but not everyone can upgrade at the same time. As Bootstrap maintainers, we recognize our role goes beyond just shipping new versions—we need to help teams navigate these transitions smoothly. Enter our browser extension: a simple tool that spots outdated Bootstrap classes right in your production environment. No source code access needed, no complex setup required. Beyond just finding deprecated classes, we'll explore how this approach opens doors for broader applications, from validating design systems to helping other framework communities. Join us to see how the humble browser extension can become a powerful ally in keeping web applications current.
 
   [Julien Déramond](https://github.com/julien-deramond) at [Storybook Paris #3 - What's your status](https://www.eventbrite.fr/e/billets-storybook-paris-3-whats-your-status-1077460516409)
@@ -82,7 +80,7 @@ transition: none
 
 <arcticons-number-master class="mb-5" />
 
-# Semantic Versioning
+# Semantic versioning
 
 <div class="grid grid-cols-5 text-center text-6xl font-bold gap-8 mb-10">
   <div v-mark="{ at: 1, color: 'pink', type: 'circle' }" v-if="$slidev.nav.clicks === 1">1</div>
@@ -134,7 +132,7 @@ Let's dive into one Bootstrap example.
 layout: two-cols
 ---
 
-# Framework Code
+# Framework code
 
 Simplified version of Bootstrap's code:
 
@@ -155,7 +153,7 @@ $btn-bg-primary: $primary;
 
 <div v-click>
 
-# User Code
+# User code
 
 ```html
 <button class="btn-primary">Primary button</button>
@@ -196,9 +194,9 @@ $primary: blue;
 <v-switch>
 <template #1>
 
-## User Code
+## User code
 
-Basic user with the CDN version of Bootstrap.
+Basic usage.
 
 ```html
 <button class="btn-primary">Primary button</button>
@@ -209,9 +207,9 @@ Basic user with the CDN version of Bootstrap.
 </template>
 <template #2>
 
-## User Code
+## User code
 
-Basic Sass user customizing a color to red.
+Customizing primary color.
 
 ```scss
 // Overriding the semantic token
@@ -227,9 +225,9 @@ $primary: red;
 </template>
 <template #3>
 
-## User Code
+## User code
 
-Advanced Sass user customizing a color to red with custom properties.
+Customizing primary color **with custom property**.
 
 ```scss
 // Defining a custom property for the primary color
@@ -262,8 +260,8 @@ layout: center
 <arcticons-symbol-question-mark />
 
 <div class="grid grid-cols-2 justify-between items-center my-5">
-<strong class="text-lime font-hand text-2xl">> 95% of users</strong> non-breaking<br>
-<strong class="text-rose font-hand text-2xl">< 5% of users</strong> breaking
+<strong class="text-lime text-2xl">> 95% of users</strong> non-breaking<br>
+<strong class="text-rose text-2xl">< 5% of users</strong> breaking
 </div>
 
 <v-click>
@@ -291,9 +289,7 @@ layout: center
 
 <arcticons-soulknight class="mb-5" />
 
-## The maintainer's nightmare
-
-Imagine maintaining a library with thousands or millions of users where every change is a potential landmine.
+<span class="text-2xl text-yellow font-hand me-1">Imagine</span> maintaining a library with thousands or millions of users where every change is a potential landmine.
 
 - Some users want rapid innovation.
 - Others demand absolute stability.
@@ -309,15 +305,17 @@ layout: center
 
 <arcticons-symbol-question-mark class="mb-5" />
 
-## Do versions numbers really matter?
+## Do version numbers really matter?
 
 <v-clicks>
 
 I've been asking myself this question a lot.
 
-**Maybe version numbers aren't as important as we think.**<br>What truly matters is the migration process—how you move from one version to the next.
+**Are version numbers really that important?**
 
-**If a tool migrates your code, version numbers might lose their significance.**<br>Unless you need to track when new features arrive, they might not be worth worrying about at all.
+What truly matters is the _migration process_—how you move from one version to the next.
+
+**If a tool automatically migrates your code, do version numbers still matter?**
 
 </v-clicks>
 
@@ -337,13 +335,13 @@ Balancing innovation and stability.
 
 Beyond that, how can we make sure migrations are smooth for everyone?
 
-<v-clicks>
+<v-clicks class="text-sm">
 
 - Changelog.
 - GitHub release.
-- Migration guides in the documentation.<br><span class="text-gray text-sm">Nobody _Reads The Fabulous Manual_.</span>
+- Migration guides in the documentation.
 - Create tools to spot breaking changes.<br><span class="text-gray text-sm">Scripts or IDE extensions.</span>
-- Create tools to spot and fix your code.<br><span class="text-gray text-sm">Automated migrations by tools like Storybook</span>
+- Create tools to spot **and fix** breaking changes.<br><span class="text-gray text-sm">Automated migrations (e.g., Storybook or Angular)</span>
 
 </v-clicks>
 
@@ -382,7 +380,7 @@ layout: center
 
 I stumbled upon a Bootstrap GitHub discussion mentioning an idea about a browser extension highlighting deprecated classes in websites.
 
-And I gave it a try.
+**And I gave it a try.**
 
 </v-click>
 
@@ -398,7 +396,7 @@ And I gave it a try.
       </a>
       <span class="showcases-profile-description">Browser extension highlighting Bootstrap deprecated classes in websites</span>
     </span>
-    <img src="https://avatars.githubusercontent.com/u/17381666?s=200" class="showcases-profile-picture" alt="" width="50" height="50" loading="lazy" decoding="async">
+    <img src="/images/17381666.jpg" class="showcases-profile-picture" alt="" width="50" height="50" loading="lazy" decoding="async">
   </div>
 </div>
 
@@ -408,13 +406,13 @@ And I gave it a try.
 layout: image
 ---
 
-<img src="/images/bootstrap-deprecated-classes-extension-1.png" />
+<img class="rounded-md" src="/images/bootstrap-deprecated-classes-extension-1.png" />
 
 ---
 layout: image
 ---
 
-<img src="/images/bootstrap-deprecated-classes-extension-2.png" />
+<img class="rounded-md" src="/images/bootstrap-deprecated-classes-extension-2.png" />
 
 ---
 layout: two-cols
@@ -423,7 +421,7 @@ transition: none
 
 <arcticons-logitech-g class="mb-5" />
 
-## Technical Breakdown
+## Technical breakdown
 
 Here's how the extension works.
 
@@ -467,7 +465,7 @@ transition: none
 
 <arcticons-logitech-g class="mb-5" />
 
-## Technical Breakdown
+## Technical breakdown
 
 Here's how the extension works.
 
@@ -511,7 +509,7 @@ transition: none
 
 <arcticons-logitech-g class="mb-5" />
 
-## Technical Breakdown
+## Technical breakdown
 
 Here's how the extension works.
 
@@ -555,7 +553,7 @@ transition: none
 
 <arcticons-logitech-g class="mb-5" />
 
-## Technical Breakdown
+## Technical breakdown
 
 Here's how the extension works.
 
@@ -601,7 +599,7 @@ layout: two-cols
 
 <arcticons-logitech-g class="mb-5" />
 
-## Technical Breakdown
+## Technical breakdown
 
 Here's how the extension works.
 
@@ -632,25 +630,27 @@ layout: center
 
 <arcticons-1more-music class="mb-5" />
 
-The tool is rather handy while you're migrating from one version to another.
+The extension is quite useful while you're migrating your project from Bootstrap 4 to 5.
 
 <v-click>
 
-## Beyond Just Migration
-
-**Context** at Orange our web framework is a fork of Bootstrap. So removed and deprecated classes are almost the same.
+<div class="grid grid-cols-3 text-sm" style="grid-template-columns: 30px 1fr 30px;">
+  <span class="text-6xl text-orange text-left">(</span>
+  <span><strong>Context at Orange:</strong> Our web framework is a fork of Bootstrap → most deprecated classes are  the same.</span>
+  <span class="text-6xl text-orange text-right">)</span>
+</div>
 
 </v-click>
 
 <v-clicks>
 
-<span class="text-2xl text-yellow italic font-hand">A usage I didn't expect</span>
+<span class="text-2xl text-orange italic font-hand">A usage I didn't expect</span>
 
 This extension is a **design system audit tool**!
 
-I can spy whether Orange websites have migrated to the latest version of Boosted just by visiting them.
+I can spy on Orange websites to see if they’ve migrated to the latest version of our framework—just by visiting them.
 
-And without any source code access.
+**No source code access needed.**
 
 </v-clicks>
 
@@ -660,7 +660,7 @@ And without any source code access.
 layout: image
 ---
 
-<img src="/images/orange.fr-screenshot.png" />
+<img class="rounded-md" src="/images/orange.fr-screenshot.png" />
 
 ---
 layout: center
@@ -672,15 +672,17 @@ layout: center
 
 ## Going further
 
-You probably don't use Bootstrap, but reuse the idea, the code, adapt it, and make it your own. It's Open Source under the MIT license.
+<span class="text-xs">You probably don't use Bootstrap 🫥but</span> **it's Open Source.**
 
-<v-clicks>
+**Reuse** the idea, the code, adapt it, and make it your own. 
 
-- Create an extension for your design system library of components
-- Add some features<br><span class="text-sm leading-3">Automatic issue creation, screenshots + webhook, links to the documentation</span>
-- Make it install by your developers
-- Create a generic extension to upload a JSON file with classes
-- Do the same thing in a Storybook addon
+<v-clicks class="text-sm">
+
+- **Create an extension** for your design system library of components
+- **Add some features** like automatic issue creation, screenshots + webhook, links to the documentation
+- **Add an extension to your recommendations** and make it installed by your developers
+- **Create a generic extension** to upload a JSON file of deprecated content, whatever the framework
+- Do the same thing in a **Storybook addon**
 
 </v-clicks>
 
@@ -692,15 +694,13 @@ layout: center
 
 <div class="max-w-96">
 
-<arcticons-collabora-office class="mb-5" />
+<arcticons-collabora-office />
 
-## Closing: An Invitation
+Open Source is `code`, but is also <span class="text-lime font-hand text-2xl">ideas, sharing and collaboration</span>.
 
-Open Source is about sharing and collaboration.
+Hope it'll inspire you to **create your own tools** with other ideas for your library, your design system, or your favorite framework.
 
-Hope it inspires you to create your own tools with other ideas for your library, your design system, or your favorite framework.
-
-Let's make the migration process easier for everyone. <arcticons-simplethankyou />
+**Together**, let's make the migration process easier for everyone. <arcticons-simplethankyou />
 
 </div>
 
@@ -711,8 +711,8 @@ class: text-center
 
 <arcticons-simplethankyou class="mb-5" />
 
-# Thank you!
+# <span class="font-hand">Thank you!</span>
 
-Presentation under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/)
+<span class="text-xs">Presentation under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).<br>Powered by [Slidev](https://sli.dev/).</span>
 
 <img src="/images/qrcode.png" alt="QR code to the slides" class="w-40 inline-block">
