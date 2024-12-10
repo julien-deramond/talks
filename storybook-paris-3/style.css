@@ -48,6 +48,12 @@ h1, h2, h3, h4, h5, h6 {
   gap: .5rem
 }
 
+.showcases-profile-content a:hover {
+  text-decoration: underline;
+  color: white;
+  border: none;
+}
+
 .showcases-profile-picture {
   border-radius: .4375rem;
 }

@@ -291,9 +291,9 @@ layout: center
 
 <span class="text-2xl text-yellow font-hand me-1">Imagine</span> maintaining a library with thousands or millions of users where every change is a potential landmine.
 
-- Some users want rapid innovation.
-- Others demand absolute stability.
-- And everyone uses your library differently.
+- Some users want rapid innovation
+- Others demand absolute stability
+- And everyone uses your library differently
 
 </div>
 
@@ -305,7 +305,7 @@ layout: center
 
 <arcticons-symbol-question-mark class="mb-5" />
 
-## Do version numbers really matter?
+## Do version numbers<br>really matter?
 
 <v-clicks>
 
@@ -333,15 +333,15 @@ layout: center
 
 Balancing innovation and stability.
 
-Beyond that, how can we make sure migrations are smooth for everyone?
+Provide tools for smoother migrations.
 
-<v-clicks class="text-sm">
+<v-clicks>
 
-- Changelog.
-- GitHub release.
-- Migration guides in the documentation.
-- Create tools to spot breaking changes.<br><span class="text-gray text-sm">Scripts or IDE extensions.</span>
-- Create tools to spot **and fix** breaking changes.<br><span class="text-gray text-sm">Automated migrations (e.g., Storybook or Angular)</span>
+- Changelog
+- GitHub release
+- Migration guides in the documentation
+- Create tools to spot breaking changes<br><span class="text-gray text-sm">Scripts or IDE extensions</span>
+- Create tools to spot **and fix** breaking changes<br><span class="text-gray text-sm">Automated migrations (e.g., Storybook or Angular)</span>
 
 </v-clicks>
 
@@ -672,9 +672,9 @@ layout: center
 
 ## Going further
 
-<span class="text-xs">You probably don't use Bootstrap 🫥but</span> **it's Open Source.**
+<span class="text-xs">You probably don't use Bootstrap 🫥</span>
 
-**Reuse** the idea, the code, adapt it, and make it your own. 
+**You can reuse** the idea, the code, adapt it, and make it your own. <span class="font-hand text-lime text-2xl">It's Open Source.</span>
 
 <v-clicks class="text-sm">
 
