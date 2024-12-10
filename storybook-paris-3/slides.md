@@ -648,7 +648,7 @@ The extension is quite useful while you're migrating your project from Bootstrap
 
 This extension is a **design system audit tool**!
 
-I can spy on Orange websites to see if they’ve migrated to the latest version of our framework—just by visiting them.
+I can spy on Orange websites to see if they've migrated to the latest version of our framework—just by visiting them.
 
 **No source code access needed.**
 

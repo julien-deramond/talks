@@ -163,14 +163,14 @@ layout: center
 <!--
 In a few words: What's Bootstrap?
 
-Bootstrap is a web framework containing customizable, responsive and accessible components, utilities and examples to build all types of websites. Everything is developed in HTML, CSS and JavaScript. It’s been created by Twitter employees and then finally released in open source in 2011. The current version is the 5.3.3. 
+Bootstrap is a web framework containing customizable, responsive and accessible components, utilities and examples to build all types of websites. Everything is developed in HTML, CSS and JavaScript. It's been created by Twitter employees and then finally released in open source in 2011. The current version is the 5.3.3. 
 
 In terms of numbers, it's the 22nd most starred project on GitHub. Last year, it was the 4th most starred library, with over 165 000 stars (one hundred sixty five thousand stars). The NPM package is downloaded 6 millions time per week. According to W3Techs, Bootstrap is used by around 19% of all websites.
 -->
 
 ---
 
-# Let’s Make a Fork of Bootstrap!
+# Let's Make a Fork of Bootstrap!
 
 Bootstrap's a good fit to enforce accessibility guidelines
 
@@ -386,7 +386,7 @@ This is not the main topic of this talk, but in a few words, a design system is 
 
 ---
 
-# Team’s Bigger, Contributions Are Bigger
+# Team's Bigger, Contributions Are Bigger
 
 In 2020, change of hands.
 
@@ -552,7 +552,7 @@ We got:
    - we had exchanges with the creator around accessibility by creating issues in our repo, he came to provide answers and/or confirm the problems
  - a charts library based on Apache ECharts where we hope to contribute upstream too whenever our library will get out of alpha
 - 3 mobile libraries for Android, iOS, and Flutter, based on the same principles as Boosted
-  - It’s less true in terms of upstream contribution, but few companies have their mobile libraries in open source in their DS, so we hope it can help other companies to architect their libraries for example
+  - It's less true in terms of upstream contribution, but few companies have their mobile libraries in open source in their DS, so we hope it can help other companies to architect their libraries for example
 - 3 Orange themes for Jekyll, MkDocs, and Storybook
 
 Having our libraries in open source is a good way to communicate with other external companies that can see that we are ready to exchange, to share our code, to be in a dynamic of progression together on this subject
