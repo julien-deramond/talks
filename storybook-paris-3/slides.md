@@ -109,7 +109,7 @@ transition: none
 
 <div v-click>
   <p>
-    <strong v-mark="{ at: 3, color: 'lime', type: 'underline'}" class="me-10">Minor version</strong>
+    <strong v-mark="{ at: 3, color: 'lime', type: 'underline'}" class="me-10">Patch version</strong>
     <span class="text-sm">Fixes, docs typos (non-breaking)</span>
   </p>
 </div>
