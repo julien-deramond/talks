@@ -1,6 +1,6 @@
 # Storybook Paris #3 - What's your status
 
-- Link: https://www.eventbrite.fr/e/billets-storybook-paris-3-whats-your-status-1077460516409
+- Link: https://www.youtube.com/watch?v=8XSjQVoTT6o
 - Date: December 12, 2024
 - Place: Algolia at Paris, France
 

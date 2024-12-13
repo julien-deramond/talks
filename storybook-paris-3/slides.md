@@ -5,7 +5,7 @@ title: Hunt down deprecated classes from your browser
 info: |
   Framework upgrades happen, but not everyone can upgrade at the same time. As Bootstrap maintainers, we recognize our role goes beyond just shipping new versions—we need to help teams navigate these transitions smoothly. Enter our browser extension: a simple tool that spots outdated Bootstrap classes right in your production environment. No source code access needed, no complex setup required. Beyond just finding deprecated classes, we'll explore how this approach opens doors for broader applications, from validating design systems to helping other framework communities. Join us to see how the humble browser extension can become a powerful ally in keeping web applications current.
 
-  [Julien Déramond](https://github.com/julien-deramond) at [Storybook Paris #3 - What's your status](https://www.eventbrite.fr/e/billets-storybook-paris-3-whats-your-status-1077460516409)
+  [Julien Déramond](https://github.com/julien-deramond) at [Storybook Paris #3 - What's your status](https://www.youtube.com/watch?v=8XSjQVoTT6o)
 
   - [Source code](https://github.com/julien-deramond/talks/tree/main/storybook-paris-3)
 highlighter: shiki
