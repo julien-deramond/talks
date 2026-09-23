@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Talks · Julien Déramond</title>
+  <meta name="description" content="Slides from Julien Déramond's talks on design systems, Bootstrap and open source.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0A0C11">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="canonical" href="https://talks-jade.vercel.app/">
+  <link rel="stylesheet" href="/brand/tokens.css">
+  <link rel="stylesheet" href="/brand/fonts/fonts.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--color-bg); color: var(--color-fg);
+      font-family: var(--font-family-body); font-size: var(--font-size-base); line-height: var(--font-line-height-body);
+    }
+    a { color: var(--color-primary); text-underline-offset: 3px; }
+    a:hover { color: var(--color-primary-lift); }
+    a:focus-visible { outline: var(--stroke-ui) solid var(--color-primary); outline-offset: 2px; }
+    .shell { max-width: var(--layout-content); margin: 0 auto; padding: var(--space-8) var(--layout-gutter) var(--space-12); }
+    .person { display: flex; align-items: center; gap: var(--space-3); color: var(--color-fg); text-decoration: none; }
+    .person svg { width: 32px; height: 32px; }
+    .person span {
+      font-family: var(--font-family-display); font-weight: var(--font-weight-bold); text-transform: uppercase;
+      letter-spacing: var(--font-letter-spacing-lockup); font-size: var(--font-size-md);
+    }
+    .eyebrow {
+      margin: var(--space-12) 0 var(--space-3); font-family: var(--font-family-display); font-weight: var(--font-weight-semibold);
+      font-size: var(--font-size-xs); letter-spacing: var(--font-letter-spacing-eyebrow); text-transform: uppercase; color: var(--color-muted);
+    }
+    .eyebrow b { font-family: var(--font-family-mono); font-weight: var(--font-weight-medium); color: var(--color-primary); margin-right: .7em; }
+    h1 {
+      margin: 0; font-family: var(--font-family-display); font-weight: var(--font-weight-bold); text-transform: uppercase;
+      letter-spacing: var(--font-letter-spacing-display); line-height: var(--font-line-height-tight); font-size: clamp(2.75rem, 8vw, 5.5rem);
+    }
+    .lead { max-width: 42rem; margin: var(--space-5) 0 var(--space-10); font-size: var(--font-size-lg); color: var(--color-muted); }
+    .lead a { color: var(--color-primary); }
+    ol { list-style: none; margin: 0; padding: 0; border-top: var(--stroke-hairline) solid var(--color-line); }
+    li { display: grid; gap: var(--space-2) var(--space-6); padding: var(--space-6) 0; border-bottom: var(--stroke-hairline) solid var(--color-line); }
+    @media (min-width: 720px) { li { grid-template-columns: 11rem 1fr; } }
+    .meta { font-family: var(--font-family-mono); font-size: var(--font-size-sm); color: var(--color-muted); }
+    .meta time { display: block; color: var(--color-fg); }
+    h2 {
+      margin: 0; font-family: var(--font-family-display); font-weight: var(--font-weight-semibold); font-size: var(--font-size-xl);
+      line-height: var(--font-line-height-snug); letter-spacing: var(--font-letter-spacing-display);
+    }
+    .event { margin: var(--space-1) 0 var(--space-3); color: var(--color-muted); }
+    .lang {
+      font-family: var(--font-family-mono); font-size: var(--font-size-xs); color: var(--color-muted);
+      border: var(--stroke-hairline) solid var(--color-line); border-radius: var(--radius-sm); padding: 1px 6px; margin-left: var(--space-2);
+      vertical-align: 2px;
+    }
+    .links { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-5); margin: 0; padding: 0; list-style: none; font-family: var(--font-family-mono); font-size: var(--font-size-sm); }
+    .links li { display: block; padding: 0; border: 0; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    footer { margin-top: var(--space-10); font-family: var(--font-family-mono); font-size: var(--font-size-sm); color: var(--color-muted); }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="person" href="https://deramond.dev">
+        <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M15,3 A12,12 0 0 0 3,15 H15 Z"/><circle cx="23" cy="9" r="6"/><path d="M3,17 H11 L15,21 V29 H3 Z"/><path fill-rule="evenodd" d="M17,17 h12 v12 h-12 Z M19,19 v8 h8 v-8 Z"/></svg>
+        <span>Julien Déramond</span>
+      </a>
+    </header>
+
+    <main>
+      <p class="eyebrow"><b>04</b>Talks</p>
+      <h1>Slides</h1>
+      <p class="lead">Slides from my talks on design systems, Bootstrap and open source. Videos, workshops and the full list are on <a href="https://deramond.dev/talks/">deramond.dev/talks</a>.</p>
+
+      <ol>
+        <li>
+          <p class="meta"><time datetime="2025-12-10">2025-12-10</time>Paris, France</p>
+          <div>
+            <h2 lang="fr">Design Systems : Stratégies Inner &amp; Open Source<span class="lang" lang="en">FR</span></h2>
+            <p class="event">Open Source Experience 2025</p>
+            <ul class="links">
+              <li><a href="/osxp2025/Design%20Systems%20_%20Strat%C3%A9gies%20Inner%20et%20Open%20Source.pdf">PDF<span class="sr-only">: Design Systems, Stratégies Inner et Open Source</span></a></li>
+              <li><a href="https://www.youtube.com/watch?v=SOPWseO4VkI">Video<span class="sr-only">: Design Systems, Stratégies Inner et Open Source</span></a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <p class="meta"><time datetime="2024-12-12">2024-12-12</time>Paris, France</p>
+          <div>
+            <h2>Hunt Down Deprecated Classes from Your Browser</h2>
+            <p class="event">Storybook Paris #3</p>
+            <ul class="links">
+              <li><a href="/storybook-paris-3/dist/">Slides<span class="sr-only">: Hunt Down Deprecated Classes from Your Browser</span></a></li>
+              <li><a href="/storybook-paris-3/dist/slidev-exported.pdf">PDF<span class="sr-only">: Hunt Down Deprecated Classes from Your Browser</span></a></li>
+              <li><a href="https://www.youtube.com/watch?v=8XSjQVoTT6o">Video<span class="sr-only">: Hunt Down Deprecated Classes from Your Browser</span></a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <p class="meta"><time datetime="2024-06-12">2024-06-12</time>Châtillon, France</p>
+          <div>
+            <h2>Orange Open-Source Design System and Its Bootstrap Fork</h2>
+            <p class="event">OW2con'24</p>
+            <ul class="links">
+              <li><a href="/ow2con24/dist/">Slides<span class="sr-only">: Orange Open-Source Design System and Its Bootstrap Fork</span></a></li>
+              <li><a href="/ow2con24/dist/slidev-exported.pdf">PDF<span class="sr-only">: Orange Open-Source Design System and Its Bootstrap Fork</span></a></li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </main>
+
+    <footer>
+      <p><a href="https://deramond.dev">deramond.dev</a> · <a href="https://github.com/julien-deramond/talks">Source on GitHub</a></p>
+    </footer>
+  </div>
+</body>
+</html>
