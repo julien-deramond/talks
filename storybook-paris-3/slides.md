@@ -55,7 +55,7 @@ layout: intro
   <carbon-logo-linkedin />
 </a> · <a href="https://x.com/JulienDeramond" alt="X" title="Open in X" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
   <carbon-logo-x />
-</a> · <a href="https://bsky.app/profile/julien-deramond.bsky.social" alt="Bluesky" title="Open in Bluesky" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+</a> · <a href="https://bsky.app/profile/deramond.dev" alt="Bluesky" title="Open in Bluesky" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
   <arcticons-bluesky />
 </a>
 
