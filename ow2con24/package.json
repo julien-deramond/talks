@@ -15,5 +15,10 @@
   },
   "devDependencies": {
     "playwright-chromium": "^1.44.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "^6.4.4"
+    }
   }
 }
